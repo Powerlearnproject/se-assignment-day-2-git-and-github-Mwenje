@@ -122,6 +122,23 @@ Paid Plans: While GitHub offers free private repositories, organizations with la
 
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
 
+Step 1 : We need to add a file to staging area. Staging area is that area where we can buy some items and put them in bucket
+  git add <File_Name>  {{For Single File}}
+  git add .            {{For all the files in current Directory}}
+To check,if files are added or not to the staging area we use git status
+
+Step 2 : Commit a file into the git repo is to write a commit message.
+git commit -m "First Commit" 
+The -m flag allows you to include a commit message, describing the changes you've made.
+
+Step 3 : Push the file into a remote repository.
+git remote add origin 
+
+This command uploads your local commits to the remote repository on GitHub. If your repository uses a different branch name (like master), replace main with that branch name.
+
+
+A commit is a snapshot of the changes made to files in your repository at a specific point in time. It records any changes allowing you to see how the project evolved over time and detailed information about what was changed. Revert back if recent commit introduces bugs or issues and be able to compare versions which helps in debugging. Commits in feature branches allow for isolated development of new features or experiments.By tagging commits, you can manage and track different versions of the project, making it easier to handle releases, hotfixes, and updates. By organizing changes into discrete snapshots, commits help maintain a well-managed and traceable project history, supporting effective collaboration and project management.
+
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
 
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
