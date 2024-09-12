@@ -196,11 +196,13 @@ Git branches allow you to keep different versions of your code cleanly separated
 1. **Isolation of Work**
 Separate Development: Branching allows multiple developers to work on different features, bug fixes, or experiments simultaneously without interfering with each other's work.
 Stability: By isolating changes in separate branches, the main branch (often main or master) remains stable and free from incomplete or experimental code.
-<br/>
+ <br/>
+   <br/>
 2. **Parallel Development**
 Multiple Lines of Work: Teams can work on various aspects of a project in parallel. For example, one branch might focus on a new feature, while another addresses a bug, and yet another prepares for a release.
 Efficient Workflow: This parallelism speeds up development and reduces bottlenecks, as different team members can make progress independently.
-<br/>
+ <br/>
+   <br/>
 3. **Collaboration and Review**
 Pull Requests: Branches are used in conjunction with pull requests (PRs) to propose changes to the main branch. PRs provide a structured way to review code, discuss changes, and ensure quality before merging.
 Code Review: Team members can review, comment, and suggest improvements on code in a branch before it becomes part of the main project. This enhances code quality and collective knowledge.
@@ -208,36 +210,42 @@ Code Review: Team members can review, comment, and suggest improvements on code 
 4. **Managing Releases**
 Release Branches: Branches can be created to prepare for releases, allowing for final testing, bug fixes, and documentation updates without disrupting ongoing development.
 Hotfix Branches: Urgent fixes can be made in hotfix branches, which are then merged into both the main and development branches, ensuring quick resolution of critical issues.
-<br/>
+ <br/>
+   <br/>
 5. **Version Control**
 Tracking Changes: Branches help in tracking the history of changes related to specific features or fixes. This makes it easier to understand the evolution of different parts of the project.
 Rollback: If issues arise, branches allow you to roll back to previous states or revert changes without affecting the main codebase.
 <br/>
 6. **Experimentation**
 Safe Experimentation: Developers can create branches to experiment with new ideas or approaches without risking the stability of the main branch. If experiments prove successful, they can be merged; if not, the branch can be discarded.
-<br/>
-7. **Enhanced Workflow Flexibility**
+<br/> <br/>
+   <br/>7. **Enhanced Workflow Flexibility**
 Customized Workflows: Teams can adopt different branching strategies (e.g., Git Flow, GitHub Flow) to suit their development process. Branching supports various workflows, from feature-driven development to continuous integration and deployment.
-<br/>
+ <br/>
+   <br/>
 Process of creating, using, and merging branches in a typical workflow.
-<br/>
+ <br/>
+   <br/>
 1. **Creating a Branch**
 Create the Branch: Use the git branch command to create a new branch. git branch <branch-name>.
 Push the Branch to Remote (Optional): git push -u origin <branch-name>
-<br/>
+ <br/>
+   <br/>
 2. **Using a Branch**
 Switch to the Branch:git checkout <branch-name>
 Make Changes: Edit, add, or delete files as needed.
 Stage and Commit Changes: git add <file-name>
 Commit the changes with a descriptive message:git commit -m "Description of changes"
 Push Changes to Remote: git push origin <branch-name> //Resolve any conflicts if they arise. Git will prompt you to resolve conflicts in affected files manually.
-<br/>
+ <br/>
+   <br/>
 3. **Merging a Branch**
 Switch to the Target Branch: git checkout main
 Update the Target Branch: git pull origin main
 Merge the Branch: git merge <branch-name>
 
-<br/>
+ <br/>
+   <br/>
 After merging, test the integrated changes to ensure everything works as expected and then push the changes
 
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
