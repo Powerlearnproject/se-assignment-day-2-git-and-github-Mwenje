@@ -45,12 +45,19 @@ The versions control maintain the integrity of the source code in various way in
 **Documentation and Communication**:By requiring meaningful commit messages, version control ensures that the rationale behind changes is documented.
 
 ## Describe the process of setting up a new repository on GitHub. What are the key steps involved, and what are some of the important decisions you need to make during this process?
+<br/>
 Step 1: After successfully setting up GitHub account login to your account. In the upper-right corner of any page, select , then click New repository.
+<br/>
 Step 2: Click on the new repository option.
+<br/>
 Step 3: After clicking new repository option, we will have to initialize some things like, naming our project, choosing the visibility etc. After performing these steps click Create Repository button.
+<br/>
 Step 4: Add Files: Upload files via the GitHub interface or clone the repository locally to work on your machine.
+<br/>
 Step 5: Commit and Push Changes: Use Git commands to add, commit, and push changes to GitHub.
+<br/>
 Step 6: Manage Branches: Create and use branches for different features or versions of your project.
+<br/>
 
 
 ## Discuss the importance of the README file in a GitHub repository. What should be included in a well-written README, and how does it contribute to effective collaboration?
