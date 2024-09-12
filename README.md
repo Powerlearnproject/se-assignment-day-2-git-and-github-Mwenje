@@ -234,25 +234,27 @@ After merging, test the integrated changes to ensure everything works as expecte
 
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
 
-**Facilitate collaboration**:Using pull requests, changes can be made without impacting the work of others. They are a great way to gather tips or code improvements from team members. If you are unsure about a code change, submit a pull request for feedback. Other team members may have suggestions that you had not considered, and this can help you make better decisions about your code.Teams can work on different parts of a system at the same time and then easily merge their changes together.
+1. **Facilitate collaboration**:Using pull requests, changes can be made without impacting the work of others. They are a great way to gather tips or code improvements from team members. If you are unsure about a code change, submit a pull request for feedback. Other team members may have suggestions that you had not considered, and this can help you make better decisions about your code.Teams can work on different parts of a system at the same time and then easily merge their changes together.
 <br/>
-**Build features faster**:First, they enable developers to submit changes to a project without having to wait for the project maintainer to merge the changes. This enables team members to work on code changes in parallel, which can speed up development. Second, pull requests can be merged, so that changes can be integrated into the project quickly and easily when building new features.
+2. **Build features faster**:First, they enable developers to submit changes to a project without having to wait for the project maintainer to merge the changes. This enables team members to work on code changes in parallel, which can speed up development. Second, pull requests can be merged, so that changes can be integrated into the project quickly and easily when building new features.
 <br/>
-**Reduce risks associated with adding new code**:Every time you add something new to your codebase, you are potentially introducing new bugs and vulnerabilities that affect the end user. Before a pull request is merged into the main codebase, other team members have the opportunity to review the changes to ensure compliance with the team’s coding standards. Bugs and errors can be addressed before they cause any problems in the live code.With pull requests, you can always roll back to a previous version in case things go wrong.
+3. **Reduce risks associated with adding new code**:Every time you add something new to your codebase, you are potentially introducing new bugs and vulnerabilities that affect the end user. Before a pull request is merged into the main codebase, other team members have the opportunity to review the changes to ensure compliance with the team’s coding standards. Bugs and errors can be addressed before they cause any problems in the live code.With pull requests, you can always roll back to a previous version in case things go wrong.
 <br/>
-**Improve code quality and performance**:When you create a pull request, you are essentially asking for someone else to review your code and give feedback. By engaging a colleague, you can improve the quality of your code based on that feedback.
+4. **Improve code quality and performance**:When you create a pull request, you are essentially asking for someone else to review your code and give feedback. By engaging a colleague, you can improve the quality of your code based on that feedback.
 
+**Steps involved in creating and merging a pull request:**
+<br/>
 1. Create a new git branch to work locally using the following command:
 git -b BRANCH_NAME
 <br/>
-3. Implement changes and push them frequently (so that they do not get lost) using the following command:
+2. Implement changes and push them frequently (so that they do not get lost) using the following command:
 git add NAME_OF_THE_FILE
 git commit -m "DESCRIBE YOUR RECENT CHANGES"
 <br/>
-5. After you have finished the implementation and committed your changes locally, you should get the latest changes from the shared repository to ensure there are no conflicting changes. You can get the latest changes using the following command:
+3. After you have finished the implementation and committed your changes locally, you should get the latest changes from the shared repository to ensure there are no conflicting changes. You can get the latest changes using the following command:
 git pull origin BRANCH_NAME
 <br/>
-7. Push your changes to the remote repository using the following command:
+4. Push your changes to the remote repository using the following command:
 git push --set-upstream-to origin REMOTE_BRANCH_NAME
 <br/>
 
