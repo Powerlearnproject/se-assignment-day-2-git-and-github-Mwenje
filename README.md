@@ -4,17 +4,25 @@
 ## Explain the fundamental concepts of version control and why GitHub is a popular tool for managing versions of code. How does version control help in maintaining project integrity?
 Version control id a system that keeps track, manage of every modification to the source code over time in a special kind of a database. This makes it easier for developers to coordinate changes,compare different versions, and revert back to an earlier version if necessary while maintaining the project integrity.
 Some of the concepts of version control include:
-
+<br/>
 1.** Repository (Repo)**: Also called a "repo," a repository is the centralized database that stores the complete collection of files and folders for a codebase, along with the revision history.
+<br/>
 2. **Commit**: A commit is a snapshot of changes with a unique "hash" that identifies the proposed changes. A commit can include notes and messages between developers. Each commit represents a version of the project, allowing developers to view, review, or revert to that state.
+<br/>
 3. Branching: A branch is a parallel version of the project, allowing developers to work on features, bug fixes, or experiments without affecting the main codebase. Once changes are stable, they can be merged back into the main branch.
+<br/>
 4. Merging: Merging involves integrating changes from one branch into another, ensuring that updates from different team members are combined.
+<br/>
 5. Conflict Resolution: When multiple developers make changes to the same file or line of code in different branches, conflicts can occur. Version control systems help resolve these conflicts by highlighting differences and allowing developers to choose which changes to keep.
+<br/>
 6. Pull/Push:
   -Push: When you push your changes, you upload your local commits to a remote repository so others can access them.
   -Pull: When you pull, you download the latest changes from a remote repository to sync your local files with the current state of the project.
+<br/>
 7. Fork: A fork is the process of creating a separate and distinct piece of software by copying source code from an existing software package.
+<br/>
 8. Revert: Developers can revert, or undo, one or more recent changes and return to the previous version.
+<br/>
 
 Github is popular tool because:
 
