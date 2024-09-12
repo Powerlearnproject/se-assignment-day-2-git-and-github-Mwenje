@@ -287,18 +287,19 @@ Tasks or bugs logged as issues can be assigned to specific team members. This cl
 A project board provides a visual representation of the project’s status. As tasks move from "To Do" to "In Progress" to "Done," all team members can see real-time updates. This visibility helps everyone stay informed about what’s being worked on and what still needs attention, fostering a sense of collective responsibility.
 
 ## Reflect on common challenges and best practices associated with using GitHub for version control. What are some common pitfalls new users might encounter, and what strategies can be employed to overcome them and ensure smooth collaboration?
-1. Merge Conflicts: Occur when multiple people edit the same part of a file, leading to conflicts that need manual resolution.<br/>
-2. Inconsistent Workflow: Teams may struggle with inconsistent use of branches, pull requests, or commit messages, leading to disorganized version history.<br/>
-3. Complexity for New Users: New contributors may find GitHub’s interface and Git commands intimidating or confusing.<br/>
-4. Code Reviews Delays: Delays in reviewing pull requests can slow down development and lead to stale branches.<br/>
-5. Security Concerns: Sensitive information (e.g., API keys) might accidentally be committed and exposed in public repositories.<br/>
-Best Practices:<br/>
-1. Regularly Sync and Pull: Frequently pull the latest changes to avoid merge conflicts and stay updated with the team’s work.<br/>
-2. Use Feature Branches: Isolate new features or bug fixes in separate branches to keep the main branch stable and organized.<br/>
-3. Consistent Commit Messages: Use clear, descriptive commit messages to maintain a clean and understandable version history.<br/>
-4. Code Reviews: Encourage timely and thorough code reviews to maintain code quality and keep the project moving forward.<br/>
-5. Secure Repository Management: Use .gitignore to exclude sensitive files, and review commits carefully to avoid exposing sensitive data.<br/>
-6. Automate Testing: Implement continuous integration (CI) to automatically run tests on pull requests, ensuring code quality before merging.<br/>
+1. **Merge Conflicts:** Occur when multiple people edit the same part of a file, leading to conflicts that need manual resolution.<br/>
+2. **Inconsistent Workflow:** Teams may struggle with inconsistent use of branches, pull requests, or commit messages, leading to disorganized version history.<br/>
+3. **Complexity for New Users:** New contributors may find GitHub’s interface and Git commands intimidating or confusing.<br/>
+4. **Code Reviews Delays:** Delays in reviewing pull requests can slow down development and lead to stale branches.<br/>
+5. **Security Concerns:** Sensitive information (e.g., API keys) might accidentally be committed and exposed in public repositories.<br/>
+****
+**Best Practices:**<br/>
+1. **Regularly Sync and Pull:** Frequently pull the latest changes to avoid merge conflicts and stay updated with the team’s work.<br/>
+2. **Use Feature Branches:** Isolate new features or bug fixes in separate branches to keep the main branch stable and organized.<br/>
+3. **Consistent Commit Messages:** Use clear, descriptive commit messages to maintain a clean and understandable version history.<br/>
+4. **Code Reviews:** Encourage timely and thorough code reviews to maintain code quality and keep the project moving forward.<br/>
+5. **Secure Repository Management:** Use .gitignore to exclude sensitive files, and review commits carefully to avoid exposing sensitive data.<br/>
+6. **Automate Testing:** Implement continuous integration (CI) to automatically run tests on pull requests, ensuring code quality before merging.<br/>
 
 
 Common Pitfalls for New GitHub Users:
