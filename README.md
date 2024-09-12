@@ -306,16 +306,25 @@ Common Pitfalls for New GitHub Users:
 1. **Merge Conflicts:**
 <br/>
 Strategy: Educate on conflict resolution, encourage frequent syncing, and use clear communication within the team.
+<br/>
+
 2. **Overwriting/Losing Work:**
 <br/>
 Strategy: Use feature branches, commit regularly, and always pull the latest changes before pushing.
 <br/>
+
 3. **Confusing Git Commands:**
 <br/>
 Strategy: Offer basic Git training, provide cheat sheets, and encourage the use of Git GUIs.
+<br/>
+
 4. **Unclear Commit Messages:**
 <br/>
 Strategy: Establish guidelines for clear, descriptive commit messages to maintain a clean project history.
+<br/>
+
+
 5. **Neglecting Code Reviews:**
 <br/>
 Strategy: Make code reviews a mandatory part of the workflow to ensure quality and collaborative input.
+<br/>
