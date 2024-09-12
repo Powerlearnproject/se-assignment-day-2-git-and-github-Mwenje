@@ -242,20 +242,21 @@ After merging, test the integrated changes to ensure everything works as expecte
 <br/>
 4. **Improve code quality and performance**:When you create a pull request, you are essentially asking for someone else to review your code and give feedback. By engaging a colleague, you can improve the quality of your code based on that feedback.
 
+<br/>
 **Steps involved in creating and merging a pull request:**
 <br/>
 1. Create a new git branch to work locally using the following command:
-git -b BRANCH_NAME
+  git -b BRANCH_NAME
 <br/>
 2. Implement changes and push them frequently (so that they do not get lost) using the following command:
-git add NAME_OF_THE_FILE
-git commit -m "DESCRIBE YOUR RECENT CHANGES"
+  git add NAME_OF_THE_FILE
+  git commit -m "DESCRIBE YOUR RECENT CHANGES"
 <br/>
 3. After you have finished the implementation and committed your changes locally, you should get the latest changes from the shared repository to ensure there are no conflicting changes. You can get the latest changes using the following command:
-git pull origin BRANCH_NAME
+  git pull origin BRANCH_NAME
 <br/>
 4. Push your changes to the remote repository using the following command:
-git push --set-upstream-to origin REMOTE_BRANCH_NAME
+  git push --set-upstream-to origin REMOTE_BRANCH_NAME
 <br/>
 
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
